@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border-bottom: solid red 0px;
+}
+a:hover{
+    border-bottom: solid red 3px;
+    transition: all 0.7s ease-in-out;
+}
+header{
+    position: relative;
+    padding: 0 2rem;
+    background-color: black;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .links{
+    display: flex;
+    gap: 3rem;
+}
+.firstimg{
+    width: 100%;
+    height: 700px;
+}
+h2 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+} 
+
+h2 .span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+.tc-countainer{
+    width: 300px;
+    height: 400px;
+    margin-top: 40px;
+    margin: 10px;
+    position: relative;
+    margin-top: 20px;
+    display: inline-flex;
+}
+.tc-countainer img{
+    width: 100%;
+    height: 100%;
+}
+.top-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 0.9s ease;
+}
+.top-img:hover{
+    opacity: 1;
+}
+.onee{
+    padding-top: 30px;
+}
+.jsp{
+    padding-top: 30px;
+}
+.showmore{
+    width: 300px;
+    height: 30px;
+    background-color: #000;
+    color: white;
+    font-size: 15px;
+    padding: 0 10px;
+}
+.btn2{
+    padding-top: 20px;
+}
+.endpic{
+    width: 250px;
+    height: 350px;
+    opacity: 100%;
+    transition: all 0.7s ease-in-out;
+}
+.endpic:hover{
+    opacity: 60%;
+}
+.lastpic{
+  margin: 40px;
+}
